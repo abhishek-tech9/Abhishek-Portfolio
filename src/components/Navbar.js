@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
@@ -46,7 +46,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <span className="logo" style={{ color: "#c770f0", fontWeight: "bold", fontSize: "30px" }}>AK.</span>
         </Navbar.Brand>
 
         <Navbar.Toggle
